@@ -31,7 +31,7 @@ Choix des fonctions d'activation et d'erreur
 <center>
 
 | Problème                 | Activation de la sortie | Fonction d'erreur  |
-| :-------------:            |:-------------:| :-----:|
+| :-------------:            |:-------------:| :-----|
 | Régression               | Linéaire      | Erreur quadratique =  ![equation](https://latex.codecogs.com/gif.latex?%5Csum_%7Bi%7D%28f%28x_%7Bi%7D%29-y%7Bi%7D%29%5E2) |
 | Classement binaire       | Sigmoïde      |   Entropie croisée = ![equation](https://latex.codecogs.com/gif.latex?-%5Csum_%7Bi%7D%5Csum_%7Bk%3D1%7D%5E%7BK%7D%20y_%7Bik%7Dlog%28f_%7Bk%7D%28x_%7Bi%7D%29%29)|
 | Classement multi-classes | Softmax       |    Entropie croisée |
