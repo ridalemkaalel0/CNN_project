@@ -70,3 +70,8 @@ L'application d'un DropConnect permet d'annuler aléatoirement les poids de cert
 
 Il n’existe pas d’architecture parfaite prédéfinie. Chaque projet aura une structure optimale différente qui sera trouvée en testant plusieurs combinaisons de couches.
 
+| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
