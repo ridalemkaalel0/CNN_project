@@ -4,11 +4,9 @@
 
 Les réseaux de neurones multicouches sont au minimum constitués de :
 
-	- un couche d’entrée, qui capte l’information initiale et la transmet à la couche suivante.
-
-	- une couche de sortie, qui fournis une prédiction par exemple la classe à laquelle appartient une image dans le cadre d’un algorithme de classification	multiclasse.
-	
-	- une couche intermédiaire, aussi appelée couche cachée qui résalise des transformations intermédiaires.
+- un couche d’entrée, qui capte l’information initiale et la transmet à la couche suivante.
+- une couche de sortie, qui fournis une prédiction par exemple la classe à laquelle appartient une image dans le cadre d’un algorithme de classification multiclasse.
+- une couche intermédiaire, aussi appelée couche cachée qui résalise des transformations intermédiaires.
 
 ## Fonctionnement d’un neurone 
 
