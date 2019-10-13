@@ -4,8 +4,8 @@
 
 Les réseaux de neurones multicouches sont au minimum constitués de :
 
-- un couche d’entrée, qui capte l’information initiale et la transmet à la couche suivante.
-- une couche de sortie, qui fournis une prédiction par exemple la classe à laquelle appartient une image dans le cadre d’un algorithme de classification multiclasse.
+- une couche d’entrée, qui capte l’information initiale et la transmet à la couche suivante.
+- une couche de sortie, qui fournie une prédiction par exemple la classe à laquelle appartient une image dans le cadre d’un algorithme de classification multiclasse.
 - une couche intermédiaire, aussi appelée couche cachée qui résalise des transformations intermédiaires.
 
 ### Fonctionnement d’un neurone 
@@ -41,7 +41,7 @@ Choix des fonctions d'activation et d'erreur
 Les réseaux convolutions ont connu un important développement ces dernières années, notamment pour le Deep Learning (reconnaissance d’image, l’analyse de texte..).
 
 ### Couche de convolution
-Dans un premier temps, la matrice est passée a travers un filtre convolutif pour générer une opération de convolution.
+Dans un premier temps, la matrice est passée à travers un filtre convolutif pour générer une opération de convolution.
 Cette opération implique une perte d’information. En effet, le noyau du filtre ne peut pas se déplacer sur les bords de la matrice et entraine une diminution de la matrice de sortie (de taille M-n+1). Pour pallier à cela, il est courant d’appliquer un padding de 0, qui ajoute une bordure autour de l’image.
 Cette étape réitérée permet, dans les premières convolutions, d’identifier des éléments de l’image simples tels que des traits, puis des contours et enfin des formes plus complexes.
 
