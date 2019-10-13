@@ -63,6 +63,8 @@ Le MaxPool est un filtre, généralement de taille 2*2, qui permet d’obtenir l
 ### DroPout
 L’application d’un DropOut désactive aléatoirement certains neurones. Il permet d’éviter le sur-apprentissage en bloquant le passage de l’information.
 
+![alt text](images/1_rDLef9xQk6C8kcaWCv7mjQ.png)
+
 ## Architecture d’un réseau de neurones
 
 Il n’existe pas d’architecture parfaite prédéfinie. Chaque projet aura une structure optimale différente qui sera trouvée en testant plusieurs combinaisons de couches.
