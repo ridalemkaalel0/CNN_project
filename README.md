@@ -11,7 +11,7 @@ Les réseaux de neurones multicouches sont au minimum constitués de :
 ### Fonctionnement d’un neurone 
 
 Le modèle le plus simple est appelé perceptron. Il dispose d’une seule couche cachée.
-Chaque neurone, qui transmet une information, est caractérisé par son poids et une fonction d’activation qui vont influencer l’activation, ou non, du neurone.
+Chaque neurone, qui transmet une information, est caractérisé par son poids qui influence l’activation, ou non, du neurone.
  
  
 ![alt text](images/pytorch-perceptron2.jpg "Perceptron")
@@ -22,10 +22,6 @@ Chaque neurone, qui transmet une information, est caractérisé par son poids et
 
 
 Aussi, une fonction d’activation est nécessaire puisque l’information d’entrée n’est pas linéaire. Il faut donc appliquer une transformation non-linéaire à la somme pondérée.
-Les deux fonctions d’activation les plus connues sont:
-- ReLu: ![equation](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%20max%280%3Bx%29)
-- Sigmoide: ![equation](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%201/1-e%5E%7Bx%7D)
-
 Le choix de la fonction d’activation est différent selon le problème posé (tableau ci-dessous)
 
 L’apprentissage d’un réseau de neurone permet de déterminer le poids optimal de chacun des neurones. A chaque envois de sous-échantillons des données initiales à travers le réseau de neurones, une erreur de prédiction est calculée (généralement une erreur quadratique). Grace a l’algorithme de gradient, les poids sont mis a jours en calculant la dérivée de l’erreur par rapport à chaque poids  ![equation](https://latex.codecogs.com/gif.latex?w_%7Bi%7D). 
@@ -35,7 +31,7 @@ Choix des fonctions d'activation et d'erreur
 
 | Problème                 | Activation de la sortie | Fonction d'erreur  |
 | :-------------:            |:-------------:| :-----:|
-| Régression               | Linéaire      | Erreur quadratique <br> ![equation](https://latex.codecogs.com/gif.latex?%5Csum_%7Bi%7D%28f%28x_%7Bi%7D%29-y%7Bi%7D%29%5E2) |
+| Régression               | Linéaire (ReLU) <br> ![equation](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%20max%280%3Bx%29)    | Erreur quadratique <br> ![equation](https://latex.codecogs.com/gif.latex?%5Csum_%7Bi%7D%28f%28x_%7Bi%7D%29-y%7Bi%7D%29%5E2) |
 | Classement binaire       | Sigmoïde   <br> ![equation](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%201/1-e%5E%7Bx%7D)     | Entropie croisée  <br> ![equation](https://latex.codecogs.com/gif.latex?-%5Csum_%7Bi%7D%5Csum_%7Bk%3D1%7D%5E%7BK%7D%20y_%7Bik%7Dlog%28f_%7Bk%7D%28x_%7Bi%7D%29%29)|
 | Classement multi-classes | Softmax  <br> ![equation](https://latex.codecogs.com/gif.latex?s_%7Bk%7D%28x%29%20%3D%20%5Cfrac%7Be%5E%7Bx_%7Bk%7D%7D%7D%7B%5Csum_%7Bl%3D1%7D%5E%7BK%7De%5E%7Bx_%7Bl%7D%7D%7D)     | Entropie croisée |
 
