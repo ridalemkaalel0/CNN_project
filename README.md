@@ -26,9 +26,9 @@ Les deux fonctions d’activation les plus connues sont:
 - ReLu: ![equation](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%20max%280%3Bx%29)
 - Sigmoide: ![equation](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%201/1-e%5E%7Bx%7D)
 
-Le choix de la fonction d’activation est différent selon le problème posé (régression, classification)
+Le choix de la fonction d’activation est différent selon le problème posé (tableau ci-dessous)
 
-L’apprentissage d’un réseau de neurone permet de déterminer le poids optimal de chacun des neurones. A chaque envois de sous-échantillons des données initiales à travers le réseau de neurones, une erreur de prédiction est calculée (généralement une erreur quadratique). Grace a l’algorithme de gradient, les poids sont mis a jours en calculant la dérivée de l’erreur par rapport à chaque wi. 
+L’apprentissage d’un réseau de neurone permet de déterminer le poids optimal de chacun des neurones. A chaque envois de sous-échantillons des données initiales à travers le réseau de neurones, une erreur de prédiction est calculée (généralement une erreur quadratique). Grace a l’algorithme de gradient, les poids sont mis a jours en calculant la dérivée de l’erreur par rapport à chaque poids ![equation](https://latex.codecogs.com/gif.latex?w_%7Bi%7D). 
 
 Choix des fonctions d'activation et d'erreur 
 
