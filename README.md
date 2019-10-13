@@ -20,6 +20,7 @@ Chaque neurone, qui transmet une information, est caractérisé par son poids et
 >Imaginons que vous hésitiez à partir en vacances. Vous réalisez une liste de pour (besoin de vous reposer, être en famille, sortir du quotidien …) et de contre (coûts des vacances, pas assez de congés …). Chaque argument aura un poids différent dans la décision finale que vous allez prendre. Il s’avère que votre situation financière ne vous permettent pas d’accomplir le voyage de vos rêves. Vous n’avez donc pas activez cette possibilité. Les réseaux neuronaux fonctionnent de la même manière!
 
 
+
 Aussi, une fonction d’activation est nécessaire puisque l’information d’entrée n’est pas linéaire. Il faut donc appliquer une transformation non-linéaire à la somme pondérée.
 Les deux fonctions d’activation les plus connues sont:
 - ReLu: ![equation](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%20max%280%3Bx%29)
@@ -54,6 +55,10 @@ On applique ici une fonction d’activation à la sortie de la couche de convula
 ### Pooling
 Le pooling est une opération qui permet de réduire la dimension d’une matrice, où celle ci est subdivisées en plusieurs fenêtres desquelles on ne garde que le maximum ou la moyenne.
 Le MaxPool est un filtre, généralement de taille 2*2, qui permet d’obtenir le maximum d’un sous-ensemble de la matrice. Il se déplace d’un saut de 2 pour éviter le chevauchement.
+
+![alt text](images/main-qimg-cf2833a40f946faf04163bc28517959c.jpeg)
+
+
 
 ### DroPout
 L’application d’un DropOut désactive aléatoirement certains neurones. Il permet d’éviter le sur-apprentissage en bloquant le passage de l’information.
