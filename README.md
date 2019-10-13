@@ -13,15 +13,17 @@ Les réseaux de neurones multicouches sont au minimum constitués de :
 Le modèle le plus simple est appelé perceptron. Il dispose d’une seule couche cachée.
 Chaque neurone, qui transmet une information, est caractérisé par son poids et une fonction d’activation qui vont influencer l’activation, ou non, du neurone.
  
+ 
 ![alt text](images/pytorch-perceptron2.jpg "Perceptron")
 
 
 >Imaginons que vous hésitiez à partir en vacances. Vous réalisez une liste de pour (besoin de vous reposer, être en famille, sortir du quotidien …) et de contre (coûts des vacances, pas assez de congés …). Chaque argument aura un poids différent dans la décision finale que vous allez prendre. Il s’avère que votre situation financière ne vous permettent pas d’accomplir le voyage de vos rêves. Vous n’avez donc pas activez cette possibilité. Les réseaux neuronaux fonctionnent de la même manière!
 
+
 Aussi, une fonction d’activation est nécessaire puisque l’information d’entrée n’est pas linéaire. Il faut donc appliquer une transformation non-linéaire à la somme pondérée.
 Les deux fonctions d’activation les plus connues sont:
-- ReLu: f(x) = max(0;x)
-- Sigmoide:  f(x)=1/1+e-x
+- ReLu: ![equation](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%20max%280%3Bx%29)
+- Sigmoide: ![equation](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%201/1-e%5E%7Bx%7D)
 
 Le choix de la fonction d’activation est différent selon le problème posé (régression, classification)
 
