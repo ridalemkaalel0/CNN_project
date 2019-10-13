@@ -26,6 +26,15 @@ Le choix de la fonction d’activation est différent selon le problème posé (
 
 L’apprentissage d’un réseau de neurone permet de déterminer le poids optimal de chacun des neurones. A chaque envois de sous-échantillons des données initiales à travers le réseau de neurones, une erreur de prédiction est calculée (généralement une erreur quadratique). Grace a l’algorithme de gradient, les poids sont mis a jours en calculant la dérivée de l’erreur par rapport à chaque wi. 
 
+Choix des fonctions d'activation et d'erreur 
+
+| Problème        | Activation de la sortie           | Fonction d'erreur  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)  
 
 ## Les réseaux convolution
 
