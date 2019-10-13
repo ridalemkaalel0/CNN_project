@@ -52,12 +52,14 @@ Il n’existe pas d’architecture parfaite prédéfinie. Chaque projet aura une
 
 {::options parse_block_html="true" /}
 
-<div class="panel panel-info">
-**Note**
-{: .panel-heading}
+<div class="panel panel-success">
+
+**Do's**
+
 <div class="panel-body">
 
-NOTE DESCRIPTION
+Hello World!
 
 </div>
 </div>
+
