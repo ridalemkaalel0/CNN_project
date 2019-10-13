@@ -15,8 +15,9 @@ Chaque neurone, qui transmet une information, est caractérisé par son poids et
  
 Schéma de Neurones de Somme pondérée
 
-^Imaginons que vous hésitiez à partir en vacances. Vous réalisez une liste de pour (besoin de vous reposer, être en famille, sortir du quotidien …) et de contre (coûts des vacances, pas assez de congés …). Chaque argument aura un poids différent dans la décision finale que vous allez prendre. Il s’avère que votre situation financière ne vous permettent pas d’accomplir le voyage de vos rêves. Vous n’avez donc pas activez cette possibilité. Les réseaux neuronaux fonctionnent de la même manière!^
-
+```diff
++ Imaginons que vous hésitiez à partir en vacances. Vous réalisez une liste de pour (besoin de vous reposer, être en famille, sortir du quotidien …) et de contre (coûts des vacances, pas assez de congés …). Chaque argument aura un poids différent dans la décision finale que vous allez prendre. Il s’avère que votre situation financière ne vous permettent pas d’accomplir le voyage de vos rêves. Vous n’avez donc pas activez cette possibilité. Les réseaux neuronaux fonctionnent de la même manière!
+```
 
 Aussi, une fonction d’activation est nécessaire puisque l’information d’entrée n’est pas linéaire. Il faut donc appliquer une transformation non-linéaire à la somme pondérée.
 Les deux fonctions d’activation les plus connues sont:
