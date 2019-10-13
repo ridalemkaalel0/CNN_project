@@ -1,5 +1,3 @@
-{::options parse_block_html="true" /}
-
 # CNN_project
 
 ## Introduction
@@ -51,6 +49,8 @@ L’application d’un DropOut désactive aléatoirement certains neurones. Il p
 ## Architecture d’un réseau de neurones
 
 Il n’existe pas d’architecture parfaite prédéfinie. Chaque projet aura une structure optimale différente qui sera trouvée en testant plusieurs combinaisons de couches.
+
+{::options parse_block_html="true" /}
 
 <div class="panel panel-info">
 **Note**
