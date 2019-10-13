@@ -28,11 +28,11 @@ L’apprentissage d’un réseau de neurone permet de déterminer le poids optim
 
 Choix des fonctions d'activation et d'erreur 
 
-| Problème        | Activation de la sortie           | Fonction d'erreur  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Problème                 | Activation de la sortie           | Fonction d'erreur  |
+| -------------            |:-------------:| -----:|
+| Régression               | Linéaire      | Erreur quadratique |
+| Classement binaire       | Sigmoïde      |   Entropie croisée |
+| Classement multi-classes | Softmax       |    Entropie croisée ![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D) |
 
 ![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)  
 
