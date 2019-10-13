@@ -12,8 +12,7 @@ Les réseaux de neurones multicouches sont au minimum constitués de :
 
 Le modèle le plus simple est appelé perceptron. Il dispose d’une seule couche cachée.
 Chaque neurone, qui transmet une information, est caractérisé par son poids et une fonction d’activation qui vont influencer l’activation, ou non, du neurone.
-
-Inline-style: 
+ 
 ![alt text](images/1_n6sJ4yZQzwKL9wnF5wnVNg.png "Logo Title Text 1")
 
 
