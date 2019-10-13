@@ -56,7 +56,7 @@ Il n’existe pas d’architecture parfaite prédéfinie. Chaque projet aura une
 
 **Do's**
 
-<div class="panel-body">
+<div class="panel-info">
 
 Hello World!
 
