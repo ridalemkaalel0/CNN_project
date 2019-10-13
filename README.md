@@ -50,16 +50,3 @@ L’application d’un DropOut désactive aléatoirement certains neurones. Il p
 
 Il n’existe pas d’architecture parfaite prédéfinie. Chaque projet aura une structure optimale différente qui sera trouvée en testant plusieurs combinaisons de couches.
 
-{::options parse_block_html="true" /}
-
-<div class="panel panel-success">
-
-**Do's**
-
-<div class="panel-info">
-
-Hello World!
-
-</div>
-</div>
-
