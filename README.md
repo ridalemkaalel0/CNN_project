@@ -56,7 +56,7 @@ On applique ici une fonction d’activation à la sortie de la couche de convula
 Le pooling est une opération qui permet de réduire la dimension d’une matrice, où celle ci est subdivisées en plusieurs fenêtres desquelles on ne garde que le maximum ou la moyenne.
 Le MaxPool est un filtre, généralement de taille 2*2, qui permet d’obtenir le maximum d’un sous-ensemble de la matrice. Il se déplace d’un saut de 2 pour éviter le chevauchement.
 
-![alt text](images/main-qimg-cf2833a40f946faf04163bc28517959c.jpeg)
+![alt text](images/maxpool.jpeg)
 
 
 
