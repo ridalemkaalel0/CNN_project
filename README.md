@@ -16,13 +16,15 @@ Chaque neurone, qui transmet une information, est caractérisé par son poids qu
  
 ![alt text](images/pytorch-perceptron2.jpg "Perceptron")
 
+*fig 1 - Schéma du fonctionnement d'un perceptron
+
 
 >Imaginons que vous hésitiez à partir en vacances. Vous réalisez une liste de pour (besoin de vous reposer, être en famille, sortir du quotidien …) et de contre (coûts des vacances, pas assez de congés …). Chaque argument aura un poids différent dans la décision finale que vous allez prendre. Il s’avère que votre situation financière ne vous permettent pas d’accomplir le voyage de vos rêves. Vous n’avez donc pas activez cette possibilité. Les réseaux neuronaux fonctionnent de la même manière!
 
-
+<br>
 
 Aussi, une fonction d’activation est nécessaire puisque l’information d’entrée n’est pas linéaire. Il faut donc appliquer une transformation non-linéaire à la somme pondérée.
-Le choix de la fonction d’activation est différent selon le problème posé (tableau ci-dessous)
+Le choix de la fonction d’activation est différent selon le problème posé (fig 2)
 
 L’apprentissage d’un réseau de neurone permet de déterminer le poids optimal de chacun des neurones. A chaque envois de sous-échantillons des données initiales à travers le réseau de neurones, une erreur de prédiction est calculée (généralement une erreur quadratique). Grace a l’algorithme de gradient, les poids sont mis a jours en calculant la dérivée de l’erreur par rapport à chaque poids  ![equation](https://latex.codecogs.com/gif.latex?w_%7Bi%7D). 
 
@@ -35,7 +37,7 @@ L’apprentissage d’un réseau de neurone permet de déterminer le poids optim
 | Classement multi-classes | Softmax  <br> ![equation](https://latex.codecogs.com/gif.latex?s_%7Bk%7D%28x%29%20%3D%20%5Cfrac%7Be%5E%7Bx_%7Bk%7D%7D%7D%7B%5Csum_%7Bl%3D1%7D%5E%7BK%7De%5E%7Bx_%7Bl%7D%7D%7D)     | Entropie croisée |
 
 
-**Choix des fonctions d'activation et d'erreur**
+*fig - Tables de choix des fonctions d'activation et d'erreur*
 
 ## Les réseaux convolution
 
