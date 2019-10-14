@@ -16,7 +16,7 @@ Chaque neurone, qui transmet une information, est caractérisé par son poids qu
  
 ![alt text](images/pytorch-perceptron2.jpg "Perceptron")
 
-*fig 1 - Schéma du fonctionnement d'un perceptron
+* fig 1 - Schéma du fonctionnement d'un perceptron * 
 
 
 >Imaginons que vous hésitiez à partir en vacances. Vous réalisez une liste de pour (besoin de vous reposer, être en famille, sortir du quotidien …) et de contre (coûts des vacances, pas assez de congés …). Chaque argument aura un poids différent dans la décision finale que vous allez prendre. Il s’avère que votre situation financière ne vous permettent pas d’accomplir le voyage de vos rêves. Vous n’avez donc pas activez cette possibilité. Les réseaux neuronaux fonctionnent de la même manière!
@@ -37,7 +37,7 @@ L’apprentissage d’un réseau de neurone permet de déterminer le poids optim
 | Classement multi-classes | Softmax  <br> ![equation](https://latex.codecogs.com/gif.latex?s_%7Bk%7D%28x%29%20%3D%20%5Cfrac%7Be%5E%7Bx_%7Bk%7D%7D%7D%7B%5Csum_%7Bl%3D1%7D%5E%7BK%7De%5E%7Bx_%7Bl%7D%7D%7D)     | Entropie croisée |
 
 
-*fig - Tables de choix des fonctions d'activation et d'erreur*
+*fig 2 - Tables de choix des fonctions d'activation et d'erreur*
 
 ## Les réseaux convolution
 
