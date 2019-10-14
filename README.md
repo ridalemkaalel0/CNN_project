@@ -17,8 +17,7 @@ Chaque neurone, qui transmet une information, est caractérisé par son poids qu
 ![alt text](images/pytorch-perceptron2.jpg "Perceptron")
 
 <p align="center">
-  <b> *fig 1 - Schéma du fonctionnement d'un perceptron* </b><br>
-
+  <i> fig 1 - Schéma du fonctionnement d'un perceptron </i><br>
   <br>
 </p>
 
