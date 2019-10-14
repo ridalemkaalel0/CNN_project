@@ -17,7 +17,7 @@ Chaque neurone, qui transmet une information, est caractérisé par son poids qu
 ![alt text](images/pytorch-perceptron2.jpg "Perceptron")
 
 <p align="center">
-  <i> fig 1 - Schéma du fonctionnement d'un perceptron </i><br>
+  <i> Fig 1 - Schéma du fonctionnement d'un perceptron </i><br>
   <br>
 </p>
 
@@ -40,8 +40,11 @@ L’apprentissage d’un réseau de neurone permet de déterminer le poids optim
 | Classement binaire       | Sigmoïde   <br> ![equation](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%201/1-e%5E%7Bx%7D)     | Entropie croisée  <br> ![equation](https://latex.codecogs.com/gif.latex?-%5Csum_%7Bi%7D%5Csum_%7Bk%3D1%7D%5E%7BK%7D%20y_%7Bik%7Dlog%28f_%7Bk%7D%28x_%7Bi%7D%29%29)|
 | Classement multi-classes | Softmax  <br> ![equation](https://latex.codecogs.com/gif.latex?s_%7Bk%7D%28x%29%20%3D%20%5Cfrac%7Be%5E%7Bx_%7Bk%7D%7D%7D%7B%5Csum_%7Bl%3D1%7D%5E%7BK%7De%5E%7Bx_%7Bl%7D%7D%7D)     | Entropie croisée |
 
+<p align="center">
+  <i> Fig 2 - Tables de choix des fonctions d'activation et d'erreur </i><br>
+  <br>
+</p>
 
-*fig 2 - Tables de choix des fonctions d'activation et d'erreur*
 
 ## Les réseaux convolution
 
@@ -57,17 +60,27 @@ On applique ici une fonction d’activation à la sortie de la couche de convula
 
 ### Pooling
 Le pooling est une opération qui permet de réduire la dimension d’une matrice, où celle ci est subdivisées en plusieurs fenêtres desquelles on ne garde que le maximum ou la moyenne.
-Le MaxPool est un filtre, généralement de taille 2*2, qui permet d’obtenir le maximum d’un sous-ensemble de la matrice. Il se déplace d’un saut de 2 pour éviter le chevauchement.
+Le MaxPool est une fenêtre, généralement de taille 2x2, qui permet d’obtenir le maximum d’un sous-ensemble de la matrice. Il se déplace d’un saut de 2 pour éviter le chevauchement.
 
 ![alt text](images/maxpool.jpeg)
+
+<p align="center">
+  <i> Fig 3 - Exemple de MaxPool </i><br>
+  <br>
+</p>
 
 
 
 ### DropOut
-L’application d’un DropOut désactive aléatoirement certains neurones (le 1er et le 2ème dans la figure ci-dessous). Il permet d’éviter le sur-apprentissage en bloquant le passage de l’information.
-L'application d'un DropConnect permet d'annuler aléatoirement les poids de certains neurones
+L’application d’un DropOut désactive aléatoirement certains neurones (fig 4, les neurones 1 et 3 sont désactivés). Il permet d’éviter le sur-apprentissage en bloquant le passage de l’information.
+L'application d'un DropConnect permet d'annuler aléatoirement les poids de certains neurones (fig 4, certaines liaisons entre la couche d'entrée et la couche cachée sont désactivées).
 
 ![alt text](images/dropout.jpeg)
+
+<p align="center">
+  <i> Fig 3 - Exemple de DropOut et DropConnect </i><br>
+  <br>
+</p>
 
 ## Architecture d’un réseau de neurones
 
