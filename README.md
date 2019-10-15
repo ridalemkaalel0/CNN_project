@@ -86,7 +86,9 @@ L'application d'un DropConnect permet d'annuler aléatoirement les poids de cert
 
 Il n’existe pas d’architecture parfaite prédéfinie. Chaque projet aura une structure optimale différente qui sera trouvée en testant plusieurs combinaisons de couches.
 
-
+<p align="center">
+  <img src="https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
 
 
